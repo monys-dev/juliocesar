@@ -114,12 +114,12 @@ section.ativo { opacity: 1; transform: translateX(0); }
 .arrow.up { bottom: 5px; left: -20px; transition: height .4s ease-out; }
 .arrow.right { width: 20px; height: 2px; top: 50%; left: 0; transition: width .4s ease-out; }
 .arrow.down{ right: 8px; top: 89%; animation: bounce 8s infinite; }
-.arrow.down, .arrow.up { width: 2.8px; height: 20px; }
+.arrow.down, .arrow.up { width: 2.2px; height: 20px; }
 
 .arrow.down::after, .arrow.right::after, .arrow.up::after{
   content: "";
   position: absolute;
-  right: -4px;
+  right: -4.5px;
   bottom: 0;
   width: 8px;
   height: 8px;
