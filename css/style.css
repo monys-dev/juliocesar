@@ -106,7 +106,7 @@ li { display: flex; justify-content: end; list-style: none; }
 /* ANIMAÇÕES */
 header a, footer a[href^="https"] { transition: color .2s ease-out; }
 header a:hover, footer a[href^="https"]:hover{ color: var(--g1); transition: color .2s ease-in-out; }
-a:focus{ color: var(--w);}
+a:visited{ color: var(--w);}
 section { opacity: 0; transform: translateX(40px); transition: opacity 1s ease, transform 1s ease; }
 section.ativo { opacity: 1; transform: translateX(0); }
 
@@ -158,7 +158,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
     #header .sub-container { gap: var(--s07); }
 
     /* INTRODUÇÃO */
-    #introducao { margin: var(--s09) 0 0 0; }
+    #introducao { margin: calc(var(--s04) * 5) 0 0 0; }
     #introducao p { display: inline; grid-column: 1 / -1; max-width: 30ch;}
     .text-1, .text-2, .text-3, .text-4 { display: none;}
 
