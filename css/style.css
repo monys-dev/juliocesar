@@ -112,7 +112,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
 /* SETAS */
 .arrow { content: ""; background-color: var(--w); position: absolute; }
 .arrow.up { bottom: 5px; left: -20px; transition: height .4s ease-out; }
-.arrow.right { width: 20px; height: 2.5px; top: 50%; left: 0; transition: width .4s ease-out; }
+.arrow.right { width: 20px; height: 2px; top: 50%; left: 0; transition: width .4s ease-out; }
 .arrow.down{ right: 8px; top: 89%; animation: bounce 8s infinite; }
 .arrow.down, .arrow.up { width: 2px; height: 20px; }
 
