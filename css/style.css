@@ -138,7 +138,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
 
     h1 { font-size: var(--s10); }
     .logo { justify-self: center;}
-    h2, h3 { font-size: var(--s06); line-height: var(--s07); }
+    h2, h3 { font-size: var(--s06); line-height: var(--s08); }
     ul { flex-direction: row; justify-content: space-between; }
     a, div a { padding: var(--s01); display: block; }
     .titulo { grid-column: 1 / -1; margin-bottom: var(--s04); }
