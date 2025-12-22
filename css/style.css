@@ -11,7 +11,8 @@
 /* RESET */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 img { display: block; max-width: 100%; height: auto; }
-a { text-decoration: none; }
+a { text-decoration: none; color: var(--w);}
+a:visited{ color: var(--w);}
 html {
     background-color: var(--b);
     color: var(--w);
@@ -27,7 +28,6 @@ h1 { font-size: 11.5rem; line-height: 1;}
 h1, .logo { letter-spacing: -.06em;}
 .logo { font-size: var(--s05); line-height: var(--s06); align-self: center;}
 h2, h3 { font-size: 3.375rem; line-height: 4.125rem; }
-a { color: var(--w);}
 ul { display: flex; gap: var(--s01); flex-direction: column; }
 li { display: flex; justify-content: end; list-style: none; }
 .titulo { grid-column: 1 / 4; }
@@ -106,7 +106,6 @@ li { display: flex; justify-content: end; list-style: none; }
 /* ANIMAÇÕES */
 header a, footer a[href^="https"] { transition: color .2s ease-out; }
 header a:hover, footer a[href^="https"]:hover{ color: var(--g1); transition: color .2s ease-in-out; }
-a:visited{ color: var(--w);}
 section { opacity: 0; transform: translateX(40px); transition: opacity 1s ease, transform 1s ease; }
 section.ativo { opacity: 1; transform: translateX(0); }
 
