@@ -123,8 +123,8 @@ section.ativo { opacity: 1; transform: translateX(0); }
   bottom: 0;
   width: 8px;
   height: 8px;
-  border-top: 2px solid var(--w);
-  border-right: 2px solid var(--w);
+  border-top: 3px solid var(--w);
+  border-right: 3px solid var(--w);
   transform: rotate(135deg);
 }
 
