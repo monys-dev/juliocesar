@@ -184,7 +184,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
     .logos { height: 290px; } .logo-3 { top: 30px; } .logo-4 { top: 60px; }
 }
 
-@media (max-width: 380px) {
+@media (max-width: 400px) {
 
     html { font-size: var(--s02); line-height: var(--s04); }
     h2, h3 { font-size: 1.625rem; line-height: var(--s07); }
