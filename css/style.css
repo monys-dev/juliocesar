@@ -134,8 +134,39 @@ section.ativo { opacity: 1; transform: translateX(0); }
 .contato-texto div:hover .arrow.right { width: 30px; transition: width .4s ease-in-out; }
 @keyframes bounce { 0% { height: 20px; } 25% { height: 30px; } 50% { height: 30px; } 75% { height: 20px; } 100% { height: 20px; } }
 
+@media (max-width: 1370px) {
+
+    /* TITULOS */
+    h1 { font-size: 11rem; }
+    h2, h3 { font-size: 3rem; line-height: 3.75rem; }
+
+    /* CONTAINERS */
+    .container { max-width: 1270px; }
+    .container-image:nth-child(odd) { grid-column: 1 / 7; }
+    .container-image:nth-child(even) { grid-column: 7 / -1; }
+    .contato-texto:nth-child(even) { grid-column: 7 / -1; order: 1;}
+    .contato-texto:nth-child(odd) { grid-column: 1 / 7; order: -1; }
+}
+
+@media (max-width: 1170px) {
+
+    /* TITULOS */
+    html { font-size: var(--s02); }
+    h1 { font-size: 10.3rem; }
+    h2, h3 { font-size: 2.75rem; line-height: 3.56rem; }
+    
+    /* CONTAINERS */
+    .container { max-width: 1070px; }
+    .container-image { grid-column: 1 / 7; order: -1; }
+    .contato-texto { grid-column: 7 / -1; }
+
+    /* SOBRE MIM */
+    #sobreMim p:nth-child(2) { grid-column: 4 / 8; }
+}
+
 @media (max-width: 600px) {
 
+    /* TITULOS, LINKS, SETAS, QUEBRA DE LINHA */
     h1 { font-size: var(--s10); }
     .logo { justify-self: center;}
     h2, h3 { font-size: var(--s06); line-height: calc(var(--s03) * 2); }
@@ -178,7 +209,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
     .contato-texto { grid-column: 1 / -1; margin-top: var(--s04); }
     .contato-texto p { margin-bottom: 0; }
     .contato-texto div{ padding-left: var(--s06); }
-
+    
     /* FOOTER */
     .footer-buttons { display: grid; gap: var(--s01); justify-items: end; margin-bottom: var(--s07);}
     .logos { height: 290px; } .logo-3 { top: 30px; } .logo-4 { top: 60px; }
@@ -186,6 +217,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
 
 @media (max-width: 400px) {
 
+    /* TITULOS */
     html { font-size: var(--s02); line-height: var(--s04); }
     h2, h3 { font-size: 1.625rem; line-height: var(--s07); }
 
@@ -197,18 +229,4 @@ section.ativo { opacity: 1; transform: translateX(0); }
 
     /* HEADER */
     #header .sub-container { gap: var(--s07) var(--s02); }
-}
-
-@media (max-width: 1370px) { .container { max-width: 1310px; } }
-@media (max-width: 1170px) {
-
-    html { font-size: var(--s02); }
-    h1 { font-size: 8.8rem; }
-    h2, h3 { font-size: 2.375rem; line-height: 3.125rem; }
-    #sobreMim p:nth-child(2) { grid-column: 4 / 8; }
-    .container { max-width: 1000px; }
-    #contato { grid-column: 1 / -1; grid-row: 6; margin: var(--s11) 0; }
-    #contato .titulo { grid-column: 1 / -1; padding-bottom: var(--s08); }
-    .container-image { grid-column: 1 / 7; order: -1; }
-    .contato-texto { grid-column: 7 / -1; }
 }
