@@ -112,7 +112,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
 /* SETAS */
 .arrow { content: ""; background-color: var(--w); position: absolute; }
 .arrow.up { bottom: 5px; left: -20px; transition: height .4s ease-out; }
-.arrow.right { width: 20px; height: 3px; top: 50%; left: 0; transition: width .4s ease-out; }
+.arrow.right { width: 20px; height: 3px; top: 40%; left: 0; transition: width .4s ease-out; }
 .arrow.down{ right: 8px; top: 89%; animation: bounce 8s infinite; }
 .arrow.down, .arrow.up { width: 3px; height: 20px; }
 
@@ -144,7 +144,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
     .titulo { grid-column: 1 / -1; margin-bottom: var(--s04); }
     .br { display: inline; }
     #formacao .arrow { top: 61%; }
-    .arrow.up { bottom: 14px; left: -10px; }
+    .arrow.up { bottom: 12px; left: -16px; }
     .arrow.down{ top: 90%; }
 
     /* CONTAINERS */
@@ -177,7 +177,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
     .container-image { grid-column: 1 / -1; order: -1; }
     .contato-texto { grid-column: 1 / -1; margin-top: var(--s04); }
     .contato-texto p { margin-bottom: 0; }
-    .contato-texto div{ padding-left: var(--s04); }
+    .contato-texto div{ padding-left: var(--s06); }
 
     /* FOOTER */
     .footer-buttons { display: grid; gap: var(--s01); justify-items: end; margin-bottom: var(--s07);}
