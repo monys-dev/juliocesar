@@ -220,7 +220,7 @@ section.ativo { opacity: 1; transform: translateX(0); }
 
     /* CONTAINERS */
     .container, .sub-container { gap: 0 var(--s02); }
-    .container { max-width: 330px; }
+    .container { max-width: 310px; }
     .sub-container.formacao { gap: var(--s09) var(--s02); }
     .sub-container.footer { gap: calc(var(--s04) * 4); }
 
